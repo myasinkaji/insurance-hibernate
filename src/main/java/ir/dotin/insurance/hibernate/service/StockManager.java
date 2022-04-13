@@ -19,7 +19,7 @@ public class StockManager {
     public void save() {
 //        stockDao.findById(38L);
         final var stock = new Stock();
-        Long id = random.nextLong(1, 100);
+        long id = random.nextLong(1, 100);
         stock.setId(id);
         stock.setName("stock#" + id);
 

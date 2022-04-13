@@ -8,7 +8,7 @@
             <generator class="assigned"></generator>
         </id>
         <property name="name"></property>
-        <one-to-one name="stockDetails" class="ir.dotin.insurance.hibernate.model.StockDetails"></one-to-one>
+        <one-to-one property-ref="stock" name="stockDetails" class="ir.dotin.insurance.hibernate.model.StockDetails"></one-to-one>
     </class>
 
 </hibernate-mapping>
